@@ -1,7 +1,7 @@
-# Crypto-BI
+# Estudo da api de Crypto-BI
  
  ## Corretora
- 
+
 https://www.binance.com/pt
 
 ## Api Usada
