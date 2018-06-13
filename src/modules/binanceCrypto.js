@@ -2,11 +2,10 @@ const config = require('../../config/binance.json');
 
 const Binance = require('binance-api-node').default;
 
-const client = Binance();
-
-const client2 = Binance({
+const client = Binance({
 	apiKey: config.binance.apiKey,
 	apiSecret: config.binance.apiSecret,
+	useServerTime: true
 });
 
 client.time().then(time => console.log(time));
