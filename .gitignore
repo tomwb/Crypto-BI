@@ -2,3 +2,5 @@
 package-lock.json
 /.azk
 .env
+
+/config/binance.json

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.red {
+			color: #dd0000;
+		}
+		.orange {
+			color: #de830b;
+		}
+	</style>
+</head>
+<body>
+	<h1>Book</h1>
+	<ul>
+		<% for (var k in book) { %>
+	        <li>
+	        	<%= k %>
+	        	<ul>
+	        		<% for (var load in book[k]) { %>
+	        		<li>
+	        			<strong><%= load %> - </strong>
+	        			<span class="orange"><%= book[k][load] %></span>
+	        		</li>
+	        		<% } %>
+	        	</ul>
+	        </li>
+	    <% } %>
+	</ul>
+</body>
+</html>

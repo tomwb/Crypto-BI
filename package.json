@@ -20,6 +20,8 @@
     "nodemon": "^1.17.5"
   },
   "dependencies": {
+    "binance-api-node": "^0.8.0",
+    "ejs": "^2.6.1",
     "express": "^4.16.3"
   }
 }
