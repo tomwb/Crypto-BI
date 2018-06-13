@@ -1,0 +1,25 @@
+{
+  "name": "crypto-bi",
+  "version": "1.0.0",
+  "description": "Crypto B.I. binance",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon ./app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomwb/Crypto-BI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomwb/Crypto-BI/issues"
+  },
+  "homepage": "https://github.com/tomwb/Crypto-BI#readme",
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
