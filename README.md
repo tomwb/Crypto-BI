@@ -1,6 +1,12 @@
 # Crypto-BI
  
+ ## Corretora
+ 
 https://www.binance.com/pt
+
+## Api Usada
+
+https://github.com/binance-exchange/binance-api-node
 
 ## Configuração
 
