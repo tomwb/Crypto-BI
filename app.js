@@ -3,6 +3,8 @@ const app = express();
 
 app.set('view engine', 'ejs');
 
+app.use('/statics', express.static('./src/statics'));
+
 require('./src/controllers/cryptoController')(app);
 
 // incializa o servidor

@@ -23,4 +23,9 @@ router.get('/trade-history', async (req, res) => {
 	res.render('../src/views/trade_history.ejs', {trades:trades});
 });
 
+router.get('/my-trades', async (req, res) => {
+	var trades = await client.myTrades({symbol:'ETHBTC'});
+	res.render('../src/views/my_trades.ejs', {trades:trades});
+});
+
 module.exports = app => app.use('/', router);
