@@ -14,8 +14,8 @@ router.get('/all-books', async (req, res) => {
 });
 
 router.get('/acount-info', async (req, res) => {
-	// var info = await client.accountInfo();
-	res.render('../src/views/acount_info.ejs');
+	var user_info = await client.accountInfo({useServerTime: true});
+	res.render('../src/views/acount_info.ejs',{user_info: user_info});
 });
 
 router.get('/trade-history', async (req, res) => {
